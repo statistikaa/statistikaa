@@ -1,4 +1,4 @@
-#STATISTIKAA
+# STATISTIKAA
 
 **STATISTIKAA** adalah versi web ramah gawai dari *Metode Statistika* (Metstat) yang bermanfaat untuk pencarian metodologi analisis bagi penelitian kuantitatif yang memanfaatkan metode statistika. Metode Statistika seringkali digunakan dalam penelitian kuantitatif bertema sosial dan ekonomi meskipun dalam penggunaannya dapat sangat luas termasuk ilmu-ilmu alam.
 
