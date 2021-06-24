@@ -1,0 +1,69 @@
+site_name: METODE STATISTIKA
+site_url: https://statistikaa.github.io
+theme: readthedocs
+
+pages:
+  - 'Beranda': 'index.md'
+  - 'Analisis Deskriptif':
+    - 'Tinjauan': 'deskriptif/index.md'
+    - 'Visualisasi Data':
+        - 'Tinjauan': 'deskriptif/visualisasi/index.md'
+        - 'Tabel': 'deskriptif/visualisasi/tabel.md'
+        - 'Diagram Batang': 'deskriptif/visualisasi/barchart.md'
+        - 'Diagram Lingkaran': 'deskriptif/visualisasi/piechart.md'
+        - 'Diagram Garis': 'deskriptif/visualisasi/linechart.md'
+        - 'Diagram Peta': 'deskriptif/visualisasi/mapchart.md'
+        - 'Diagram Gambar': 'deskriptif/visualisasi/pictogram.md'
+    - 'Eksplorasi Data':
+        - 'Tinjauan': 'deskriptif/eksplorasi/index.md'
+        - 'Ukuran Lokasi': 'deskriptif/eksplorasi/lokasi.md'
+        - 'Ukuran Dispersi': 'deskriptif/eksplorasi/dispersi.md'
+        - 'Distribusi Frekuensi': 'deskriptif/eksplorasi/distribusi-frekuensi.md'
+        - 'Summary Number': 'deskriptif/eksplorasi/summary.md'
+        - 'Histogram': 'deskriptif/eksplorasi/histogram.md'
+        - 'Boxplot': 'deskriptif/eksplorasi/boxplot.md'
+        - 'Skewness & Kurtosis': 'deskriptif/eksplorasi/skewness-kurtosis.md'
+        - 'Outlier': 'deskriptif/eksplorasi/outlier.md'
+  - 'Analisis Inferensial':
+    - 'Tinjauan': 'inferensial/index.md'
+    - 'Parametrik':
+        - 'Tinjauan': 'inferensial/parametrik/index.md'
+        - 'Confidence Interval': 'inferensial/parametrik/ci.md'
+        - 'Satu Populasi': 'inferensial/parametrik/satu-populasi.md'
+        - 'Dua Populasi': 'inferensial/parametrik/dua-populasi.md'
+        - '>2 Populasi': 'inferensial/parametrik/k-populasi.md'
+    - 'Non Parametrik':
+        - 'Tinjauan': 'inferensial/non-parametrik/index.md'
+        - 'Satu Populasi': 'inferensial/non-parametrik/satu-populasi.md'
+        - 'Dua Populasi': 'inferensial/non-parametrik/dua-populasi.md'
+        - '>2 Populasi': 'inferensial/non-parametrik/k-populasi.md'
+    - 'Analisis Regresi':
+        - 'Tinjauan': 'inferensial/regresi/index.md'
+    - 'Analisis Data Kategorik':
+        - 'Tinjauan': 'inferensial/kategorik/index.md'
+    - 'Analisis Timeseries':
+        - 'Tinjauan': 'inferensial/timeseries/index.md'
+  - 'Metode Sampling':
+    - 'Tinjauan': 'sampling/index.md'
+    - 'Non Probability': 'sampling/non-probability.md'
+    - 'Probability':
+        - 'Tinjauan': 'sampling/probability/index.md'
+        - 'Simple Random Sampling': 'sampling/probability/simple.md'
+        - 'Systematic Random Sampling': 'sampling/probability/sistematik.md'
+        - 'Stratified Random Sampling': 'sampling/probability/stratified.md'
+        - 'Cluster Sampling': 'sampling/probability/cluster.md'
+        - 'Multistage Sampling': 'sampling/probability/multistage.md'
+        - 'Estimator': 'sampling/probability/multistage.md'
+  - 'Penyusunan Kuesioner':
+    - 'Tinjauan': 'kuesioner/index.md'
+    - 'Uji Validitas': 'kuesioner/validitas.md'
+    - 'Uji Reliabilitas': 'kuesioner/reliabilitas.md'
+  - 'Statistika Matematika':
+    - 'Tinjauan': 'statmat/index.md'
+    - 'Teori Peluang': 'statmat/peluang/index.md'
+    - 'Pendugaan Parameter': 'statmat/est-parameter/index.md'
+
+repo_name: 'GitHub'
+repo_url: 'https://github.com/statistikaa/statistikaa.github.io'
+markdown_extensions:
+  - admonition
