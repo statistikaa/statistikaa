@@ -1,0 +1,94 @@
+site_name: METODE STATISTIKA
+pages:
+  - 'Beranda': 'index.md'
+  - 'Tentang': 'about.md'
+  - 'Analisis Deskriptif':
+    - 'Tinjauan': 'deskriptif/index.md'
+    - 'Visualisasi Data':
+        - 'Tinjauan': 'deskriptif/visualisasi/index.md'
+        - 'Tabel': 'deskriptif/visualisasi/tabel.md'
+        - 'Diagram Batang': 'deskriptif/visualisasi/barchart.md'
+        - 'Diagram Lingkaran': 'deskriptif/visualisasi/piechart.md'
+        - 'Diagram Garis': 'deskriptif/visualisasi/linechart.md'
+        - 'Diagram Peta': 'deskriptif/visualisasi/mapchart.md'
+        - 'Diagram Gambar': 'deskriptif/visualisasi/pictogram.md'
+    - 'Eksplorasi Data':
+        - 'Tinjauan': 'deskriptif/eksplorasi/index.md'
+        - 'Ukuran Lokasi': 'deskriptif/eksplorasi/lokasi.md'
+        - 'Ukuran Dispersi': 'deskriptif/eksplorasi/dispersi.md'
+        - 'Distribusi Frekuensi': 'deskriptif/eksplorasi/frekuensi.md'
+        - 'Tabel Kontingensi': 'deskriptif/eksplorasi/kontingensi.md'
+        - 'Summary Number': 'deskriptif/eksplorasi/summary.md'
+        - 'Histogram': 'deskriptif/eksplorasi/histogram.md'
+        - 'Boxplot': 'deskriptif/eksplorasi/boxplot.md'
+        - 'Skewness & Kurtosis': 'deskriptif/eksplorasi/skewness-kurtosis.md'
+        - 'Outlier': 'deskriptif/eksplorasi/outlier.md'
+  - 'Analisis Inferensial':
+    - 'Tinjauan': 'inferensial/index.md'
+    - 'Parametrik':
+        - 'Tinjauan': 'inferensial/parametrik/index.md'
+        - 'Estimasi': 
+            - 'Tinjauan': 'inferensial/parametrik/estimasi/index.md'
+            - 'Satu Populasi': 
+                - 'Tinjauan': 'inferensial/parametrik/estimasi/satu-populasi/index.md'
+            - 'Dua Populasi': 
+                - 'Tinjauan': 'inferensial/parametrik/estimasi/dua-populasi/index.md'
+        - 'Uji Hipotesis': 
+            - 'Tinjauan': 'inferensial/parametrik/hipotesis/index.md'
+            - 'Satu Populasi': 
+                - 'Tinjauan': 'inferensial/parametrik/hipotesis/satu-populasi/index.md'
+            - 'Dua Populasi': 
+                - 'Tinjauan': 'inferensial/parametrik/hipotesis/dua-populasi/index.md'
+            - '>2 Populasi': 
+                - 'Tinjauan': 'inferensial/parametrik/hipotesis/k-populasi/index.md'
+            - 'Normalitas': 
+                - 'Tinjauan': 'inferensial/parametrik/hipotesis/normalitas/index.md'
+    - 'Non Parametrik':
+        - 'Tinjauan': 'inferensial/non-parametrik/index.md'
+        - 'Satu Populasi': 
+            - 'Tinjauan': 'inferensial/non-parametrik/satu-populasi/index.md'
+        - 'Dua Populasi': 
+            - 'Tinjauan': 'inferensial/non-parametrik/dua-populasi/index.md'
+        - '>2 Populasi': 
+            - 'Tinjauan': 'inferensial/non-parametrik/k-populasi/index.md'
+        - 'Hubungan': 
+            - 'Tinjauan': 'inferensial/non-parametrik/hubungan/index.md'
+    - 'Analisis Regresi':
+        - 'Tinjauan': 'inferensial/regresi/index.md'
+    - 'Analisis Data Kategorik':
+        - 'Tinjauan': 'inferensial/kategorik/index.md'
+    - 'Analisis Timeseries':
+        - 'Tinjauan': 'inferensial/timeseries/index.md'
+  - 'Metode Sampling':
+    - 'Tinjauan': 'sampling/index.md'
+    - 'Non Probability':
+        - 'Tinjauan': 'sampling/non-probability/index.md'
+    - 'Probability':
+        - 'Tinjauan': 'sampling/probability/index.md'
+        - 'SRS': 'sampling/probability/simple.md'
+        - 'Sistematik': 'sampling/probability/sistematik.md'
+        - 'Stratified': 'sampling/probability/stratified.md'
+        - 'PPS Sampling': 'sampling/probability/pps.md'
+        - 'Cluster Sampling': 'sampling/probability/cluster.md'
+        - 'Multistage Sampling': 'sampling/probability/multistage.md'
+        - 'Estimator': 'sampling/probability/multistage.md'
+  - 'Penyusunan Kuesioner':
+    - 'Tinjauan': 'kuesioner/index.md'
+    - 'Uji Validitas': 'kuesioner/validitas.md'
+    - 'Uji Reliabilitas': 'kuesioner/reliabilitas.md'
+  - 'Statistika Matematika':
+    - 'Tinjauan': 'statmat/index.md'
+    - 'Teori Peluang': 'statmat/peluang.md'
+    - 'Random Variabel': 
+        - 'Tinjauan': 'statmat/random-variable/index.md'
+    - 'Sample Distribution': 
+        - 'Tinjauan': 'statmat/sample-dist/index.md'
+    - 'Pendugaan Titik': 'statmat/point-est.md'
+    - 'Pendugaan Selang': 'statmat/interval-est.md'
+    - 'Pengujian Hipotesis': 'statmat/hipotesis.md'
+    - 'Tabel Kontingensi': 'statmat/kontingensi.md'
+theme: readthedocs
+repo_name: 'GitHub'
+repo_url: 'https://github.com/statistikaa/statistikaa'
+markdown_extensions:
+  - admonition
